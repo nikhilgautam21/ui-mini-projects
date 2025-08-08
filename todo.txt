@@ -1,0 +1,44 @@
+ Mini Frontend Tasks (with React + CSS/JS Focus)
+🧩 Component-Level
+Image Carousel (with auto-play + manual nav)
+
+Accordion / FAQ Component (only one open at a time)
+
+Tabs UI with animated underline
+
+Multi-step Form with validation and navigation
+
+Tooltip / Popover with outside click to close
+
+🧠 Logic-Focused
+Debounced Search Input with mock API call
+
+Auto-suggest Dropdown (type → fetch options)
+
+Custom Modal with scroll lock + close on Escape key
+
+Infinite Scroll / Load More Button for a list
+
+Countdown Timer / Progress Bar with pause/resume
+
+💄 CSS/UI Specific
+Masonry Grid Layout (Pinterest-style)
+
+Responsive Card Grid (with min/max column breakpoints)
+
+Skeleton Loader for a list of items
+
+Sticky Header on Scroll effect
+
+Dark Mode Toggle with CSS transitions
+
+⚙️ Bonus Real-World Scenarios
+Drag-and-Drop List Reordering (without a lib)
+
+Editable Table (inline editing + save/cancel)
+
+Toast Notification System with auto-dismiss
+
+Copy-to-Clipboard Button with tooltip
+
+Custom File Upload with preview + validations
