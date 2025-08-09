@@ -1,6 +1,7 @@
 export const projectsList = [
   { id: 'carousel', name: 'Carousel', link: '/carousel', icon: 'Image' },
   { id: 'accordion', name: 'Accordion', link: '/accordion', icon: 'List' },
+  { id: 'tabs', name: 'Tabs', link: '/tabs', icon: 'Table' },
 ];
 
 export const accordionList = [
@@ -33,5 +34,58 @@ export const accordionList = [
     content:
       'Install the Prettier extension, set it as the default formatter, and enable "Editor: Format On Save" in settings. This makes VS Code auto-format files with Prettier whenever you save.',
     expanded: false,
+  },
+];
+
+export const tabConfig = [
+  {
+    id: 'overview',
+    label: 'Overview',
+    content: `
+      Welcome to our product!  
+      This tab gives you a quick summary of what the product is, 
+      who it’s for, and why you should care.  
+      You’ll find links to key resources, 
+      a short getting started guide, and a high-level feature list.
+    `,
+    icon: '📄',
+  },
+  {
+    id: 'features',
+    label: 'Features',
+    content: `
+      Our product offers a range of powerful features:
+      - Real-time collaboration with team members
+      - Offline mode for working without internet
+      - Fully customizable UI themes
+      - AI-powered search to find content instantly
+      These features are designed to save time and boost productivity.
+    `,
+    icon: '✨',
+  },
+  {
+    id: 'pricing',
+    label: 'Pricing',
+    content: `
+      We offer flexible plans:
+      1. Free: Perfect for individuals getting started
+      2. Pro ($9/month): For small teams that need extra features
+      3. Enterprise (Custom pricing): Tailored for large organizations
+      All plans come with 24/7 customer support and a 14-day free trial.
+    `,
+    icon: '💰',
+  },
+  {
+    id: 'contact',
+    label: 'Contact',
+    content: `
+      Need help or want to chat?  
+      Reach us via:
+      - Email: support@example.com
+      - Phone: +1 (800) 123-4567
+      - Live chat: Available in-app  
+      We usually respond within 24 hours.
+    `,
+    icon: '📞',
   },
 ];
