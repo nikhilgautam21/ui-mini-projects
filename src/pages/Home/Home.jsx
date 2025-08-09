@@ -1,10 +1,11 @@
 import Projects from '../../components/Projects/Projects';
+import { projectsList } from '../../utils/constants';
 
 function Home() {
   return (
     <div className="h-screen">
       <h1 className="text-3xl p-5 text-center">Mini Projects</h1>
-      <Projects />
+      <Projects projects={projectsList} />
     </div>
   );
 }
